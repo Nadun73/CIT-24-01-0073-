@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://kit.fontawesome.com/2e15d904ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ---------------------header------------------------------ -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src = "Black And White Aesthetic Minimalis.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi, I'm <span>Nadun Nirmal Manawadu</span>.</p>
+            <br>
+            <h1>This is my portfolio website to showcase my all works related to<br>
+            Web Development, Graphic Design, Programming Skills<br> and Photography.</h1>
+        </div>
+        <a href="CIT-24-01-0073.pdf" download class="btn btn2" align="center">Download CV</a>
+    </div>
+</div>  
+
+<!-- -----------------about----------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="1731485886670.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p><br>Hello! I’m Nadun Nirmal Manawadu, a passionate and creative professional with expertise in web development, 
+                    graphic design, programming, and photography. With a strong background in creating dynamic and visually compelling digital experiences, 
+                    I strive to blend technical skill with artistic vision. My journey has equipped me with a robust skill set that includes proficiency in HTML, 
+                    CSS, JavaScript, WordPress, and more. I am dedicated to bringing ideas to life and crafting solutions that resonate. When I am not coding or designing,
+                     you will find me behind the lens, capturing the world through my photography.
+
+                    Let us build something great together!<br>
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Graphic Designing and Video Editing</span><br>Skilled in creating visually engaging designs that bring ideas to life. 
+                            I specialize in crafting unique graphics for various needs, ensuring each project stands out with creativity and precision.</li><br>
+                        <li><span>Web Developmnet</span><br>Experienced in building responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, 
+                            and popular frameworks. I create dynamic web solutions that deliver a seamless user experience</li> <br>
+                        <li><span>Programming</span><br>Proficient in various programming languages and problem-solving, I develop efficient and scalable code for diverse applications.
+                             My expertise spans from writing clean, maintainable code to tackling complex algorithms and software design.</li><br>
+                        <li><span>Photography</span><br>Passionate about capturing moments through a unique lens, I blend creativity and technical expertise to create visually striking photographs.
+                             My work ranges from portrait and landscape photography to event coverage, showcasing stories and emotions with each shot</li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Graphic Designing and Video Editing</span><br>I have accumulated significant experience working on about the official SLTC Styilish Bag
+                        in SLTC University. I am the designer of all the flyers about that campaign. And I also created a 6 minutes long video about Sri Lanka.</li><br>
+                        <li><span>Graphic Designing</span><br>I have created a website for a educational academy using Wordpress. </li><br>
+                        <li><span>Programming</span><br>I have created a Java based system for a supermarket using databases and OOP in Java. And I also created some small programms using Python.</li><br>
+                        <li><span>Photography</span><br>I have been a member of the SLTC Research University as a Photographer, Event Manager and a Graphic Designer.</li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2007 - 2013</span><br>Primary Education - B/Dharmapala Maha Vidyalaya.</li><br>
+                        <li><span>2014 - 2021</span><br>Secondary Education - Bandarawela Madya Maha Vidyalay.</li><br>
+                        <li><span>2023</span><br>Diploma in English - Sabaragamuwa University of Sri Lanka.</li><br>
+                        <li><span>2023</span><br>Certificate in WebBased Application Development - Sabaragamuwa University of Sri Lanka.</li><br>
+                        <li><span>2023</span><br>Certificate in Advanced Java Programming - Sabaragamuwa University of Sri Lanka.</li><br>
+                        <li><span>2024 Onwards</span><br>Higher Education - Undergraduate of SSLTC Reasearch University.</li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<!-- --------------------services--------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles" align="center">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>Graphic Designing</h2>
+                <p>I can Design anything you ask fot with precesion using Photoshop, Illustrator, and etc...</p>
+                <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>Web Development</h2>
+                <p>I can design any kind of website using HTML, CSS, JavaScript, Wordpress and Moodle.</p>
+                <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming</h2>
+                <p>I can design software for your needs using Java, Python, and Databases.</p>
+                <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>I can capture your beautiful moments.</p>
+                <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>I can edit any kind of a video using Adobe Premiere Pro and Capcut.</p>
+                <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <h2>Event Management</h2>
+                <p>I can make your memorable event unfogrttable memory.</p>
+                <a href="#">Learn More...</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------portfolio---------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles" align="center">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="bag.jpg">
+                <div class="layer">
+                    <h3>SLTC Stylish Bag Flyers</h3>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web.jpg">
+                <div class="layer">
+                    <h3>Educational Website</h3>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bill.jpg">
+                <div class="layer">
+                    <h3>Supermarket Inventory and Billing System</h3>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photo.jpg">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -----------------------contact------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>nadunmanawadu20@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>070 4043683</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/18YVpjJ6R7/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/NadunManawadu?t=Z99fdiYvUH0lWS0fCUCpAw&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/nadun.manawadu/profilecard/?igsh=cnV3OHdwYmM3d3Br"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nadun-manawadu-16823820b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" align="center">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> N.N.M. Made by Nadun Manawadu.</p>
+    </div>
+ </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw76TTA08XLjw8ihhQXDcjPz_pVn0n02bbLJprphp4Vrukbd8BHoe1eizJjpnLr_JXS7w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+           msg.innerHTML = "Massage Sent Successfully" 
+           setTimeout(function(){
+            msg.innerHTML = ""
+           },5000)
+           form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
